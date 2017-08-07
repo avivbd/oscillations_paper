@@ -6,9 +6,9 @@ flag_dataPlots = 'no';
 
 %% Load Data
 %load previously saved data - put in same directory as this file 
-load('/Users/avivbachan/Google_Drive/Research/PennStatePostdoc/Phanerozoic_d13C/Pre_submission_manuscript_prep/Data/PhanData.mat')
+load('PhanData.mat')
 
-load('/Users/avivbachan/Google_Drive/Research/PennStatePostdoc/Phanerozoic_d13C/Pre_submission_manuscript_prep/Data/T-J_LBC/Hettangian_LBC_d13C.mat')
+load('Hettangian_LBC_d13C.mat')
 
 
 %% Concat data
